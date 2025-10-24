@@ -6,12 +6,12 @@ default: &default
 
 development:
   <<: *default
-  database: db/development.sqlite3
+  database: smartroutes_development
 
 test:
   <<: *default
-  database: db/test.sqlite3
+  database: smartroutes_test
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: smartroutes_production

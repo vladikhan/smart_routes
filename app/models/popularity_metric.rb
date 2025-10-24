@@ -1,0 +1,2 @@
+class PopularityMetric < ApplicationRecord
+end
